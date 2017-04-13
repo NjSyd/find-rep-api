@@ -1,6 +1,10 @@
 {
   "name": "find-rep-api",
   "version": "1.0.0",
+  "engines": {
+    "node": "^6.10.1",
+    "npm": "^3.10.10"
+  },
   "description": "Super simple wrapper around the api at whosimyrepresentative.com/api",
   "main": "index.js",
   "scripts": {
@@ -16,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/hillmanov/find-rep-api/issues"
   },
-  "homepage": "https://github.com/hillmanov/find-rep-api"
+  "homepage": "https://github.com/hillmanov/find-rep-api",
+  "dependencies": {
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "request": "^2.81.0"
+  }
 }
